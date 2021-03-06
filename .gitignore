@@ -2,3 +2,5 @@
 .idea
 # data - download instead
 data/
+# jupyter notebook checkpoints
+.ipynb_checkpoints/
