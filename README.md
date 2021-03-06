@@ -12,23 +12,25 @@ We have a set of images from a simulated circuit generated with the Unity game e
 
 [Slides](https://github.com/dsikar/msc-dissertation-latex/blob/master/Evaluation%20of%20self-driving%20cars%20using%20CNNs%20in%20the%20rain.pdf) | [Dissertation](https://github.com/dsikar/msc-dissertation-latex/blob/master/Daniel_Sikar_MSc_Project_Report.pdf) | [Dissertation Latex files](https://github.com/dsikar/msc-dissertation-latex)
 
-Training dataset track:
+
+Training dataset track:  
 ![Small Looping Circuit](images/GeneratedTrackPlusHistogram.png)
 
-Ground truth steering angles (multiplied by normalisation constant (25 degrees, maximum Unity steering angle):
+Ground truth steering angles (multiplied by normalisation constant (25 degrees, maximum Unity steering angle):  
 ![Ground Truth Steering Angles](images/genTrackOneLap_logs_Wed_Nov_25_23_39_22_2020_ground_truth_steering_angles.png)
 
-Example 1 - images/100_cam-image_array_.jpg
-Steering angle label - labels/record_100.json
-Normalised ground truth: [-0.0005910187028348446 (x 25 = -0.02)](labels/record_100.json)
-![Example 1](images/100_cam-image_array_.jpg)
 
-Example 2 - images/200_cam-image_array_.jpg 
-Steering angle label - labels/record_200.json
-Normalised ground truth: [0.5147194862365723 (x 25 = 12.9)](labels/record_200.json)
-![Example 2](images/200_cam-image_array_.jpg)
+Example 1 - images/100_cam-image_array_.jpg  
+Steering angle label - labels/record_100.json  
+Normalised ground truth: [-0.0005910187028348446 (x 25 = -0.02)](labels/record_100.json)  
+![Example 1](images/100_cam-image_array_.jpg)  
 
-Example 3 - images/600_cam-image_array_.jpg 
-Steering angle label - labels/record_600.json
-Normalised ground truth: [-0.12861526012420655 (x 25 = -3.2)](labels/record_600.json)
-![Example 3](images/600_cam-image_array_.jpg)
+Example 2 - images/200_cam-image_array_.jpg  
+Steering angle label - labels/record_200.json  
+Normalised ground truth: [0.5147194862365723 (x 25 = 12.9)](labels/record_200.json)  
+![Example 2](images/200_cam-image_array_.jpg)  
+
+Example 3 - images/600_cam-image_array_.jpg  
+Steering angle label - labels/record_600.json  
+Normalised ground truth: [-0.12861526012420655 (x 25 = -3.2)](labels/record_600.json)  
+![Example 3](images/600_cam-image_array_.jpg)  
