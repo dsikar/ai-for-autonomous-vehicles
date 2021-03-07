@@ -2,7 +2,7 @@
 
 ## Predicting steering angles from images using Convolutional Neural Networks
 
-In this workshop we will investigate one approach to self-driving using the so called end-to-end training. Unlike the previous workshops where a model was trained, this time we will use a pre-trained model.
+In this workshop we will investigate one approach to self-driving using computer vision, and based on the results of my MSc dissertation "Evaluation of self-driving cars using CNNs in the rain". Unlike the previous workshops where a model was trained, this time we will use a pre-trained model.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][colab_jp_nb_link] 
  
@@ -16,7 +16,7 @@ We have a set of images from a simulated circuit generated with the Unity game e
 Training dataset track:  
 ![Small Looping Circuit](images/GeneratedTrackPlusHistogram.png)
 
-Ground truth steering angles (multiplied by normalisation constant (25 degrees, maximum Unity steering angle):  
+Ground truth steering angles multiplied by normalisation constant (25 degrees, maximum Unity steering angle):  
 ![Ground Truth Steering Angles](images/genTrackOneLap_logs_Wed_Nov_25_23_39_22_2020_ground_truth_steering_angles.png)
 
 
